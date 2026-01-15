@@ -1,5 +1,3 @@
-"use client"
-
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { Navigation } from "@/components/navigation"
@@ -89,6 +87,14 @@ const coursesData = {
 
 interface CourseDetailPageProps {
   params: Promise<{ id: string }>
+}
+
+export async function generateStaticParams() {
+  return [
+    { id: '1' },
+    { id: '2' },
+    { id: '3' },
+  ]
 }
 
 export default async function CourseDetailPage({ params }: CourseDetailPageProps) {
