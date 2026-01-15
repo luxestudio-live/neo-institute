@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[55703,["/neo-institute/_next/static/chunks/70d475a0b7701ba6.js","/neo-institute/_next/static/chunks/c4964899fe458d94.js"],"default"]
 3:I[90714,["/neo-institute/_next/static/chunks/70d475a0b7701ba6.js","/neo-institute/_next/static/chunks/c4964899fe458d94.js"],"default"]
-0:{"buildId":"xpDpZEVVRMj3x0VgMT6dj","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"WyFZmkgLGCNeaIU8-TgGq","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}

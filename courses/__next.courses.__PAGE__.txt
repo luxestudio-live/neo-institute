@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
 2:I[3888,["/neo-institute/_next/static/chunks/5da6dfa1850e802d.js","/neo-institute/_next/static/chunks/c4964899fe458d94.js"],"ClientPageRoot"]
-3:I[93073,["/neo-institute/_next/static/chunks/0732f8aa656549e3.js","/neo-institute/_next/static/chunks/14dfdb95c83cb408.js","/neo-institute/_next/static/chunks/2dc05d8738d4b35a.js","/neo-institute/_next/static/chunks/a318b25d3055fd22.js"],"default"]
+3:I[93073,["/neo-institute/_next/static/chunks/0732f8aa656549e3.js","/neo-institute/_next/static/chunks/14dfdb95c83cb408.js","/neo-institute/_next/static/chunks/2dc05d8738d4b35a.js","/neo-institute/_next/static/chunks/8a8f4c1509ce0959.js"],"default"]
 6:I[30611,["/neo-institute/_next/static/chunks/5da6dfa1850e802d.js","/neo-institute/_next/static/chunks/c4964899fe458d94.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"buildId":"xpDpZEVVRMj3x0VgMT6dj","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/neo-institute/_next/static/chunks/14dfdb95c83cb408.js","async":true}],["$","script","script-1",{"src":"/neo-institute/_next/static/chunks/2dc05d8738d4b35a.js","async":true}],["$","script","script-2",{"src":"/neo-institute/_next/static/chunks/a318b25d3055fd22.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"WyFZmkgLGCNeaIU8-TgGq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/neo-institute/_next/static/chunks/14dfdb95c83cb408.js","async":true}],["$","script","script-1",{"src":"/neo-institute/_next/static/chunks/2dc05d8738d4b35a.js","async":true}],["$","script","script-2",{"src":"/neo-institute/_next/static/chunks/8a8f4c1509ce0959.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
