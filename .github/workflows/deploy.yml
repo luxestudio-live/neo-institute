@@ -57,6 +57,13 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /neo-institute
 
+      - name: List build output
+        run: |
+          echo "Listing root directory:"
+          ls -la
+          echo "Checking if out directory exists:"
+          ls -la out || echo "out directory not found"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
