@@ -93,7 +93,13 @@ interface CourseDetailPageProps {
 
 export default async function CourseDetailPage({ params }: CourseDetailPageProps) {
   const { id } = await params
-  const course = coursesData[id as keyof typeof coursesData]
+  
+  // Validate that id is one of the valid course IDs
+  if (id !== '1' && id !== '2' && id !== '3') {
+    notFound()
+  }
+  
+  const course = coursesData[id as '1' | '2' | '3']
 
   if (!course) {
     notFound()
