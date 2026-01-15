@@ -1,0 +1,9 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,50462,(e,t,r)=>{"use strict";Object.defineProperty(r,"__esModule",{value:!0}),Object.defineProperty(r,"warnOnce",{enumerable:!0,get:function(){return n}});let n=e=>{}},79696,e=>{"use strict";var t=e.i(4339);function r(e={}){let n=(0,t.useRef)(null),[i,s]=(0,t.useState)(!1);return(0,t.useEffect)(()=>{let t=new IntersectionObserver(([e])=>{e.isIntersecting&&s(!0)},{threshold:.5,...e});return n.current&&t.observe(n.current),()=>{n.current&&t.unobserve(n.current)}},[e]),{ref:n,isInView:i}}e.s(["useInView",()=>r])},23686,e=>{"use strict";var t=e.i(89793),r=e.i(79696);function n({children:e,className:n=""}){let{ref:i,isInView:s}=(0,r.useInView)();return(0,t.jsx)("div",{ref:i,className:`
+        transition-all duration-700 ease-out font-bold
+        ${s?"opacity-100":"opacity-50"}
+        ${n}
+      `,style:{WebkitTextFillColor:s?"#6fbf73":"transparent",WebkitTextStrokeWidth:s?"0px":"1.5px",WebkitTextStrokeColor:"#6fbf73",color:s?"#6fbf73":"transparent",transition:"all 0.7s cubic-bezier(0.34, 1.56, 0.64, 1)",letterSpacing:"-0.02em",textRendering:"optimizeLegibility"},children:e})}e.s(["AnimatedSectionHeading",()=>n])},26728,e=>{"use strict";var t=e.i(89793),r=e.i(79696);function n({children:e,className:n="",delay:i=0}){let{ref:s,isInView:o}=(0,r.useInView)();return(0,t.jsx)("div",{ref:s,className:`
+        transition-all duration-700 ease-out
+        ${o?"opacity-100 translate-y-0":"opacity-0 translate-y-8"}
+        ${n}
+      `,style:{transitionDelay:o?`${i}ms`:"0ms"},children:e})}e.s(["ScrollFadeIn",()=>n])}]);

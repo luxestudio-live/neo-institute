@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[34581,["/neo-institute/_next/static/chunks/0732f8aa656549e3.js"],"ScrollToTop"]
+3:I[55703,["/neo-institute/_next/static/chunks/5da6dfa1850e802d.js","/neo-institute/_next/static/chunks/c4964899fe458d94.js"],"default"]
+4:I[90714,["/neo-institute/_next/static/chunks/5da6dfa1850e802d.js","/neo-institute/_next/static/chunks/c4964899fe458d94.js"],"default"]
+5:I[36768,["/neo-institute/_next/static/chunks/0732f8aa656549e3.js","/neo-institute/_next/static/chunks/73ff070a891ed0f4.js","/neo-institute/_next/static/chunks/0b001d2171871433.js"],"default"]
+6:I[30601,["/neo-institute/_next/static/chunks/0732f8aa656549e3.js"],"Analytics"]
+:HL["/neo-institute/_next/static/chunks/03051d586b517963.css","style"]
+:HL["/neo-institute/_next/static/chunks/73e4ad3d4144bee6.css","style"]
+0:{"buildId":"xpDpZEVVRMj3x0VgMT6dj","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/neo-institute/_next/static/chunks/03051d586b517963.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/neo-institute/_next/static/chunks/73e4ad3d4144bee6.css","precedence":"next"}],["$","script","script-0",{"src":"/neo-institute/_next/static/chunks/0732f8aa656549e3.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"inter_e2473468-module__7NREva__className font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[["$","$L5",null,{}],[]]}],["$","$L6",null,{}]]}]}]]}],"loading":null,"isPartial":false}
