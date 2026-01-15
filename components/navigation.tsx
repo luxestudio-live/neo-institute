@@ -59,20 +59,45 @@ export function Navigation() {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation - Full Screen */}
         {isOpen && (
-          <div className="md:hidden border-t border-[#6fbf73]/10 py-4 space-y-3 bg-black/50 backdrop-blur">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="block px-4 py-2 text-sm font-medium text-gray-300 hover:text-[#6fbf73] hover:bg-[#6fbf73]/10 rounded-lg transition"
-                onClick={() => setIsOpen(false)}
+          <div className="fixed inset-0 top-20 z-50 md:hidden bg-black/95 backdrop-blur-2xl">
+            <div className="flex flex-col items-center justify-center h-full space-y-8 px-8">
+              {navItems.map((item, idx) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="text-4xl font-bold text-white hover:text-[#6fbf73] transition-all duration-300 hover:scale-110"
+                  onClick={() => setIsOpen(false)}
+                  style={{
+                    animation: `fadeInUp 0.5s ease-out ${idx * 0.1}s both`
+                  }}
+                >
+                  {item.label}
+                </Link>
+              ))}
+              <Button 
+                className="mt-8 bg-[#6fbf73] hover:bg-[#5aa85c] text-black font-semibold text-lg px-12 py-6"
+                style={{
+                  animation: `fadeInUp 0.5s ease-out ${navItems.length * 0.1}s both`
+                }}
               >
-                {item.label}
-              </Link>
-            ))}
-            <Button className="w-full bg-[#6fbf73] hover:bg-[#5aa85c] text-black font-semibold">Apply Now</Button>
+                Apply Now
+              </Button>
+            </div>
+            
+            <style jsx>{`
+              @keyframes fadeInUp {
+                from {
+                  opacity: 0;
+                  transform: translateY(30px);
+                }
+                to {
+                  opacity: 1;
+                  transform: translateY(0);
+                }
+              }
+            `}</style>
           </div>
         )}
       </div>
